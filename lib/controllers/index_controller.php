@@ -2,7 +2,7 @@
 $controllers['index'] =
 function()
 {
-    $params = [];
+    $params = array();
 
     function decompose_color($color)
     {
@@ -51,7 +51,7 @@ function()
                 $errors[] = 'Wrong image format.';
             else
             {
-                $found = [];
+                $found = array();
                 for($y = 0; $y < $image_info[1] && empty($break); ++$y)
                 {
                     for($x = 0; $x < $image_info[0] && empty($break); ++$x)
@@ -65,7 +65,7 @@ function()
                         $rgb = imagecolorat($image, $x, $y);
 
                         if($rgb === $color)
-                            $found[] = [$x, $y];
+                            $found[] = array($x, $y);
                     }
                 }
 

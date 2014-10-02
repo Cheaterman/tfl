@@ -1,5 +1,5 @@
 <?php
-$view_titles = [
+$view_titles = array(
+    'main'    => 'Gestion - 200DPM',
     'index' => '',
-    'results' => 'Results',
-];
+);

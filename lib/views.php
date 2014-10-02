@@ -1,5 +1,5 @@
 <?php
-function render_view($action, array $params = [])
+function render_view($action, array $params = array())
 {
     require_once(__DIR__ . '/views/titles.php');
     require_once(__DIR__ . '/views/template.php');
