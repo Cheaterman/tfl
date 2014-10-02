@@ -1,0 +1,16 @@
+body
+{
+    width: 960px;
+    margin: auto;
+}
+
+input
+{
+    margin-bottom: 1em;
+}
+
+.error
+{
+    color: red;
+    font-weight: bold;
+}
